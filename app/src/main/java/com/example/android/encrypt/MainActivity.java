@@ -26,28 +26,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // find the view that shows DES view
-        TextView des = findViewById(R.id.des);
-        // set a onClickListener on that view
-        des.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent desIntent = new Intent(MainActivity.this, DesActivity.class);
-                startActivity(desIntent);
-            }
-        });
 
 
-        // find the view that shows RSA view
-        TextView rsa = findViewById(R.id.rsa);
-        // set an onCLickListener on that view
-        rsa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent rsaIntent = new Intent(MainActivity.this, RsaActivity.class);
-                startActivity(rsaIntent);
-            }
-        });
+
 
 
         // find the view that shows MD5 view

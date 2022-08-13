@@ -14,17 +14,9 @@
             android:exported= "false"
             android:label="AesActivity"/>
 
-        <activity android:name=".DesActivity"
-            android:exported= "false"
-            android:label="DesActivity"/>
-
         <activity android:name=".Md5Activity"
             android:exported= "false"
             android:label="Md5Activity"/>
-
-        <activity android:name=".RsaActivity"
-            android:exported= "false"
-            android:label="RsaActivity"/>
 
         <activity
             android:name=".MainActivity"
